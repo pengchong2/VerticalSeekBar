@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="150px"
+    android:layout_height="921px"
+    android:background="@drawable/bg">
+
+    <TextView
+
+        android:id="@+id/volume_txv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32px"
+        android:textColor="@android:color/white"
+        android:text="30"
+        android:layout_marginLeft="62px"
+        android:layout_marginTop="66px"
+        android:layout_marginBottom="41px"
+        android:gravity="center"/>
+
+    <cn.flyaudio.myapplication.VerticalSeekBar
+        android:id="@+id/volume_seekbar"
+        android:layout_width="8px"
+        android:layout_marginLeft="80px"
+        android:layout_height="686px"
+        android:progressDrawable="@drawable/seekbar"
+        android:thumb="@drawable/seekbar_thumb"
+
+        />
+
+
+
+
+</LinearLayout>
